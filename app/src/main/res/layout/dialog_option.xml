@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="60dp"
+    android:padding="@dimen/padding">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:layout_margin="8dp"
+        android:text="Sports"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:fontFamily="@font/glegoo"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/politics"
+        android:layout_margin="8dp"
+        android:layout_below="@id/sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Politics"
+        android:fontFamily="@font/glegoo"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/education"
+        android:layout_margin="8dp"
+        android:layout_below="@id/politics"
+        android:fontFamily="@font/glegoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Education"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/entertainment"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/glegoo"
+        android:layout_below="@id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Entertainment"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/business"
+        android:layout_margin="8dp"
+        android:layout_below="@id/entertainment"
+        android:fontFamily="@font/glegoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Business"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/agriculture"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:fontFamily="@font/glegoo"
+        android:layout_below="@id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Agriculture"
+        android:textSize="15sp" />
+<TextView
+        android:id="@+id/lifestyle"
+        android:layout_below="@id/agriculture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="LifeStyle"
+        android:fontFamily="@font/glegoo"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:textSize="15sp" />
+<TextView
+        android:id="@+id/gadget"
+        android:layout_below="@id/lifestyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Gadgets"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:fontFamily="@font/glegoo"
+        android:layout_margin="12dp"
+        android:textSize="15sp" />
+<TextView
+        android:id="@+id/international"
+        android:layout_below="@id/gadget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3c3c44"
+        android:text="Interntaional"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/glegoo"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:textSize="15sp" />
+      
+</RelativeLayout>
+
+</ScrollView>

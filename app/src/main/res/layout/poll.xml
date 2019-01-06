@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poll"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dfceac"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Do You Liked this ?" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:gravity="center"
+            android:background="#ff0000"
+            android:text="YES"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="NO"
+            android:background="#01e705"
+            android:layout_height="wrap_content" />
+</LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>

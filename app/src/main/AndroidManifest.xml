@@ -1,0 +1,89 @@
+<manifest package="com.yayandroid.locationmanager.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required to check whether user has network connection or not -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Dangerous Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".SampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SampleActivity"
+            android:configChanges="orientation"
+            android:theme="@style/AppTheme1"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<service android:name=".ExampleService" />
+
+        <provider
+            android:authorities="com.yayandroid.locationmanager.sample"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                />
+        </provider>
+        <activity android:name=".Home"
+            />
+
+        <activity android:name=".MainActivity"
+            />
+        <activity android:name=".fragment.SampleFragmentActivity" />
+        <activity android:name=".service.SampleServiceActivity" />
+
+        <service android:name=".service.SampleService" />
+
+        <activity android:name=".secondpage.NewsAgriculture"/>
+        <activity android:name=".secondpage.NewsSports"/>
+        <activity android:name=".secondpage.NewsBusiness"/>
+        <activity android:name=".secondpage.NewsEducation"/>
+        <activity android:name=".secondpage.NewsEntertainment"/>
+        <activity android:name=".secondpage.NewsInternational"/>
+        <activity android:name=".secondpage.NewsGadgets"/>
+        <activity android:name=".secondpage.NewsLifestyle"/>
+        <activity android:name=".secondpage.NewsPolitics"/>
+
+
+        <activity android:name=".thirdpage.NewsAgricultureFull"
+            android:parentActivityName=".secondpage.NewsAgriculture"/>
+        <activity android:name=".thirdpage.NewsSportsFull"
+            android:parentActivityName=".secondpage.NewsSports"/>
+        <activity android:name=".thirdpage.NewsBusinessFull"
+            android:parentActivityName=".secondpage.NewsBusiness"/>
+        <activity android:name=".thirdpage.NewsEducationFull"
+            android:parentActivityName=".secondpage.NewsEducation"/>
+        <activity android:name=".thirdpage.NewsEntertainmentFull"
+            android:parentActivityName=".secondpage.NewsEntertainment"/>
+        <activity android:name=".thirdpage.NewsInternationalFull"
+            android:parentActivityName=".secondpage.NewsInternational"/>
+        <activity android:name=".thirdpage.NewsGadgetsFull"
+            android:parentActivityName=".secondpage.NewsGadgets"/>
+        <activity android:name=".thirdpage.NewsLifestyleFull"
+            android:parentActivityName=".secondpage.NewsLifestyle"/>
+        <activity android:name=".thirdpage.NewsPoliticsFull"
+            android:parentActivityName=".secondpage.NewsPolitics"/>
+
+    </application>
+
+</manifest>

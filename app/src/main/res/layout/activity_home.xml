@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:text="Categories.."
+        android:id="@+id/cat"
+        android:textSize="25sp"
+        android:fontFamily="@font/glegoo"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/cat"
+        android:id="@+id/scroll"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="7dp"
+            android:background="@drawable/shape2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/sports"
+                android:layout_height="120dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sports"
+        android:gravity="center"
+        android:text="Sports"
+        android:textColor="#3c3c44"
+        android:textSize="12sp" />
+        </RelativeLayout>
+		
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="7dp"
+            android:background="@drawable/shape2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/international"
+                android:layout_height="120dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/international"
+        android:gravity="center"
+        android:text="International"
+        android:textColor="#3c3c44"
+        android:textSize="12sp" />
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="7dp"
+            android:background="@drawable/shape2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/politics"
+                android:layout_height="120dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/politics"
+        android:gravity="center"
+        android:text="Politics"
+        android:textColor="#3c3c44"
+        android:textSize="12sp" />
+        </RelativeLayout>
+
+<RelativeLayout
+            android:layout_width="match_parent"
+			android:background="@drawable/shape2"
+    android:layout_margin="7dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/education"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/education"
+            android:text="Education"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+			android:background="@drawable/shape2"
+    android:layout_margin="7dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/business"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business"
+            android:text="Business"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+    android:layout_margin="7dp"
+			android:background="@drawable/shape2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/agriculture"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agriculture"
+            android:text="Agriculture"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+			android:background="@drawable/shape2"
+    android:layout_margin="7dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/gadgets"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gadgets"
+            android:text="Gadgets"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+			android:background="@drawable/shape2"
+    android:layout_margin="7dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/lifestyle"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lifestyle"
+            android:text="LifeStyle"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+<RelativeLayout
+            android:layout_width="match_parent"
+			android:background="@drawable/shape2"
+    android:layout_margin="7dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/ab"
+                android:id="@+id/entertainment"
+                android:layout_height="120dp"/>
+            <TextView                        android:layout_width="100dp"   android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/entertainment"
+            android:text="Entertainment"
+            android:textColor="#3c3c44"
+            android:textSize="12sp"	/>
+        </RelativeLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll"
+        android:id="@+id/text"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"><TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:fontFamily="@font/glegoo"
+            android:textColor="#3c3c44"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:id="@+id/heading"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@id/heading"
+            android:fontFamily="@font/glegoo"
+            android:textColor="#3c3c44"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:id="@+id/shortdesc"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
