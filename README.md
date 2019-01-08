@@ -1,4 +1,4 @@
-# LocationManager
+# NewsApp
 
 <a href="http://developer.android.com/index.html" target="_blank"><img src="https://img.shields.io/badge/platform-android-green.svg"/></a> <a href="https://android-arsenal.com/api?level=14" target="_blank"><img src="https://img.shields.io/badge/API-14%2B-green.svg?style=flat"/></a> [![codecov](https://codecov.io/gh/yayaa/LocationManager/branch/master/graph/badge.svg)](https://codecov.io/gh/yayaa/LocationManager) <a href="http://www.methodscount.com/?lib=ggps.shubham.newsfinal%3ALocationManager%3A2.0.0"><img src="https://img.shields.io/badge/Methods count-517-e91e63.svg" target="_blank"/></a> <a href="http://www.methodscount.com/?lib=ggps.shubham.newsfinal%3ALocationManager%3A2.0.0"><img src="https://img.shields.io/badge/Size-70 KB-e91e63.svg" target="_blank"/></a>
 
@@ -103,7 +103,7 @@ You can create your own [PermissionProvider][7] implementation and simply set it
 
 You can create your own [DialogProvider][11] implementation to display `rationale message` or `gps request message` to user, and simply set them to required configuration objects. If you don't specify any [SimpleMessageDialogProvider][12] will be used as default.
 
-## LocationManager
+## NewsApp
 
 Ok, we have our configuration object up to requirements, now we need a manager configured with it.
 
